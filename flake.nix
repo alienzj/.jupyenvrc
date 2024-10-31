@@ -1,14 +1,13 @@
 {
-  description = "Reproducible Computing Environment with Jupyter and Nix Flake";
+  description = "Reproducible Computing Environment with Jupyter and NixOS";
 
-  
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
 
     flake-compat.url = "github:edolstra/flake-compat";
     flake-compat.flake = false;
     flake-utils.url = "github:numtide/flake-utils";
-    jupyenv.url = "github:alienzj/jupyenv";
+    jupyenv.url = "/home/alienzj/toolkits/ohnixos/jupyenv";
   };
 
   outputs = {
